@@ -22,7 +22,7 @@ body contains "<h1>Soyuz site</h1>"
 GET http://atenea.olimpo.test
 HTTP 403
 [Asserts]
-body contains "You do not have permission to access apolo.olimpo.test"
+body contains "You do not have permission to access atenea.olimpo.test"
 
 GET http://atenea.olimpo.test/index.html
 HTTP 404
